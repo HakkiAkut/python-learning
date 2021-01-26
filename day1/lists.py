@@ -51,8 +51,27 @@ user ={
     }
 }
 print(user[1]["name"])
+
+# dictionary methods
 user.update({
-    2:{
-        
+    3:{
+        "id":3,
+        "name": "3",
+        "pwd":3,
     }
 })
+for item in user:
+    print(user[item])
+
+for item in user.keys():
+    print(item)
+user.popitem()
+
+for x,y in user.items():
+    print(x,y)
+del user # deletes object(dictionary for this case)
+
+# sets - no duplicate, not indexable 
+a = set([1,2,3,4,1,2])
+for item in a:
+    print(item)
