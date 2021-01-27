@@ -41,3 +41,25 @@ print(res3)
 # filter
 even=lambda num: num%2==0
 print(list(filter(even,range(10))))
+
+# any & all
+boolean = [True,False]
+print(any(boolean),all(boolean))
+boolean = [True,True]
+print(all(boolean))
+
+# sorted
+num = [5,2,1,4]
+num = sorted(num)
+num1= sorted(num,reverse=True) 
+print(num,num1)
+num3= [
+         {
+            "name":2
+        },
+        {
+            "name":1
+        }
+    ]
+print(sorted(num3,key= lambda num: num["name"]))
+print(list(map(lambda name: name["name"],sorted(num3,key= lambda num: num["name"]))))
