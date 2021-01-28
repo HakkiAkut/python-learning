@@ -24,3 +24,28 @@ print(rn.sample(chars,3)) # takes 3 random chars
 # import own module
 import mymodule as mm
 print(mm.sumOfN(11))
+
+import datetime as dt
+print(dt.datetime.now().date())
+print(dt.datetime.now().strftime("%A %d %B %Y"))
+
+import os
+print(os.name) # nt is windows
+print(os.getcwd())
+# os.chdir("C:\\") changes dir
+# os.listdir("C:\\") lists files in C
+# os.mkdir("name") creates dir
+# os.system("notepad.exe")
+print(os.path.abspath("modules.py"))
+print(os.path.dirname(os.path.abspath("modules.py")))
+# os.path.exists("c:\\python") checks is exist or not
+
+import re
+print(re.search("[A-Z]","hakki"))
+# split(" ",str) splits str with " "
+# findAll("py", str) finds py in str
+
+# help('modules')
+import termcolor  # pip install  termcolor
+print(termcolor.__file__)
+print(termcolor.colored("colored string",color="red",on_color="on_white",attrs=["bold"]))
