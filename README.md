@@ -6,4 +6,4 @@ day2 - methods, functions, scope(global, local), lambda, built-in functions, err
 
 day3 - modules, built-in modules(math, random, datetime, os, re), pip install usage, OOP intro, oop instance methods
 
-day4 - oop inheritance, class attributes & methods, basic quiz app(using classes)
+day4 - oop inheritance, class attributes & methods, basic quiz app(using classes), basic card game
