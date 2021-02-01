@@ -17,3 +17,11 @@ def factorial(num):
     return inner_fact(num)
 
 print(factorial(6))
+
+
+#function returning
+def power(num):
+    def inner(pow):
+        return num ** pow
+    return inner
+print(power(3)(3))
