@@ -10,4 +10,4 @@ day4 - oop inheritance, class attributes & methods, basic quiz app(using classes
 
 day5 - oop properties, special methods, overriding methods, iterators, generators
 
-day6- nested functions, function returning
+day6- nested functions, function returning, functions as parameter

@@ -25,3 +25,14 @@ def power(num):
         return num ** pow
     return inner
 print(power(3)(3))
+
+#function as param
+def operation(func1,func2,op_name,value):
+    if op_name =="sqrt":
+        return func1(value)
+    elif op_name =="power":
+        return func2(value,2)
+    else:
+        raise Exception("operation name must be sqrt or power!")
+import math
+print(operation(math.sqrt,math.pow,"power",3))
