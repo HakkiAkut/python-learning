@@ -9,3 +9,5 @@ day3 - modules, built-in modules(math, random, datetime, os, re), pip install us
 day4 - oop inheritance, class attributes & methods, basic quiz app(using classes), basic card game
 
 day5 - oop properties, special methods, overriding methods, iterators, generators
+
+day6- nested functions,
