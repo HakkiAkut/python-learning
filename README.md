@@ -14,4 +14,4 @@ day6- nested functions, function returning, functions as parameter, decoretor, s
 
 day7- file reading, writing, appending, updating
 
-day8- reading csv file, DictReader, writing csv file
+day8- reading csv file, DictReader, writing csv file, DictWriter

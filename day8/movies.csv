@@ -1,14 +1,14 @@
-movie_name,movie_rating
-The Shawshank Redemption,9.3
-Pulp Fiction,8.9
-Forrest Gump,8.8
-Léon,8.5
-The Lion King,8.5
-Andaz Apna Apna,8.2
-Trois couleurs: Rouge,8.1
-Chung Hing sam lam,8.1
-Once Were Warriors,7.9
-Ed Wood,7.8
-Il postino,7.7
-Clerks,7.7
-Trois couleurs: Blanc,7.6
+released_year,movie_name,movie_rating
+1994,The Shawshank Redemption,9.3
+1994,Pulp Fiction,8.9
+1994,Forrest Gump,8.8
+1994,Léon,8.5
+1994,The Lion King,8.5
+1994,Andaz Apna Apna,8.2
+1994,Trois couleurs: Rouge,8.1
+1994,Chung Hing sam lam,8.1
+1994,Once Were Warriors,7.9
+1994,Ed Wood,7.8
+1994,Il postino,7.7
+1994,Clerks,7.7
+1994,Trois couleurs: Blanc,7.6
