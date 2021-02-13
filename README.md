@@ -13,3 +13,5 @@ day5 - oop properties, special methods, overriding methods, iterators, generator
 day6- nested functions, function returning, functions as parameter, decoretor, speed test with decoretor, sending param to decoretor
 
 day7- file reading, writing, appending, updating
+
+day8- reading csv file, DictReader, 
