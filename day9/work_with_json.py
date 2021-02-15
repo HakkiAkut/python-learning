@@ -30,5 +30,13 @@ print(user1,type(user1))
 serial=json.dumps(user1,ensure_ascii=False,indent=2)# turned to string
 print(type(serial))
 print(serial)
-with open("day9/user.json","r+") as file:
-    json.dump(user1,file,ensure_ascii=False,indent=2)
+data_list=[data,user1]
+with open("day9/user1.json","r") as file:
+    #json.dump(user1,file,ensure_ascii=False,indent=2)
+    data2=json.load(file)
+    data2.append(data)
+    data2.append(user1)
+    print(type(data2))
+    print(data2)
+with open("day9/user1.json","w") as file:
+    json.dump(data2,file)
