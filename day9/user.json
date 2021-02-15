@@ -1,0 +1,9 @@
+{
+    "name":"hakki",
+    "surname":"akut",
+    "age":22,
+    "competencies":[
+        "Python","PHP","Java"
+    ]
+    
+}
