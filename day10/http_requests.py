@@ -22,3 +22,14 @@ response= req.get("https://jsonplaceholder.typicode.com/todos",params={
 }) # only gets completed todos
 for i in json.loads(response.text):
         print(i["title"])
+
+# post
+
+response= req.post("https://jsonplaceholder.typicode.com/posts",data={
+    "title": 'post title',
+    "body": 'post body',
+    "userId": 1,
+})
+
+print(response)
+print(response.text)
