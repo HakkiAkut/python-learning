@@ -14,3 +14,11 @@ print(type(json.loads(response.text))) # <class 'list'>
 for i in json.loads(response.text):
     if(i["completed"]==True):
         print(i["title"])
+
+# query strings
+
+response= req.get("https://jsonplaceholder.typicode.com/todos",params={
+    "completed":"true"
+}) # only gets completed todos
+for i in json.loads(response.text):
+        print(i["title"])
