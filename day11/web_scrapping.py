@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 
 with open("day11/index.html","r") as f:
     doc= f.read()
-
+# Tags
 result= BeautifulSoup(doc,"html.parser")
 
 print(result.prettify())
