@@ -18,4 +18,6 @@ day8- reading csv file, DictReader, writing csv file, DictWriter, DictWriter app
 
 day9- json, json deserializing, json serializing, json lists
 
-day10- http requests,
+day10- http requests, query strings, post requests, wheather app by using API
+
+day11- Web Scrapping, Tags
