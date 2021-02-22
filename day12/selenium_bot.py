@@ -20,4 +20,15 @@ video_title= driver.find_element_by_id("video-title") # will get first video tit
 print(video_title.text) # video title
 video_channel= driver.find_element_by_xpath("//*[@id='metadata']/div/ytd-channel-name/div/div/yt-formatted-string/a")
 print(video_channel.text) # video channel name
+
+
+videos=driver.find_elements_by_id("video-title")
+channels=driver.find_elements_by_xpath("//*[@id='metadata']/div/ytd-channel-name/div/div/yt-formatted-string/a")
+
+print(videos)
+print(channels)
+
+for x in videos:
+    print(x.text)
+
 driver.close()
