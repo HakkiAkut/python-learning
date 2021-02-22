@@ -1,5 +1,6 @@
 driver_path ="day12/chromedriver"
 from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
 import time
 
 driver = webdriver.Chrome(driver_path)
@@ -38,4 +39,12 @@ for i in py_times:
 
 for x in py_names:
     print(x.text)
-driver.close()
+
+
+driver.get("https://en.wikipedia.org/wiki/Main_Page")
+link= driver.find_elements_by_xpath("//*[@id='articlecount']/a")[0]
+link.click()
+
+search= driver.find_element_by_name("search")
+search.send_keys("Selenium")
+search.send_keys(Keys.ENTER)
