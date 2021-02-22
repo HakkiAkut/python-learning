@@ -22,4 +22,4 @@ day10- http requests, query strings, post requests, wheather app by using API
 
 day11- Web Scrapping, Tags, find methods, attributes, navigating
 
-day12- selenium
+day12- selenium basics, selenium find methods
